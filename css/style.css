@@ -1,0 +1,16 @@
+section, div{
+    border: 0px solid #000
+}
+
+.container-fluid{
+    background-color: yellow;
+}
+
+.nav-item{
+    background-color: yellow;
+}
+
+.nav-item:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
