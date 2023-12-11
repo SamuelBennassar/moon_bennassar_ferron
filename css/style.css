@@ -2,15 +2,45 @@ section, div{
     border: 0px solid #000
 }
 
-.container-fluid{
-    background-color: yellow;
+.col-sm-4.text-center{
+    background-color: #a2d2ff;
 }
 
 .nav-item{
-    background-color: yellow;
+    background-color: #a2d2ff;
 }
 
 .nav-item:hover{
-    background-color: orangered;
+    background-color: #0077b6;
     cursor: pointer;
+}
+
+.background{
+    min-height: 100vh;
+    background-image: url('../img/moon.jpg')
+    
+}
+
+.col-sm-12.center{
+    padding-top: 25%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cuadro{
+    text-align: center;
+    width: 70%;
+    height: auto;
+    background: #a2d2ff;
+    opacity: .6;
+    
+}
+
+.button{
+    background: #03045e;
+}
+
+footer{
+    background-color: #a2d2ff;
 }
