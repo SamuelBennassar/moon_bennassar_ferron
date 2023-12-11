@@ -32,8 +32,10 @@ section, div{
     text-align: center;
     width: 70%;
     height: auto;
-    background: #a2d2ff;
-    opacity: .6;
+    background: #248df0;
+    opacity: .7;
+    border-radius: 10%;
+    border: 4px solid #a2d2ff
     
 }
 
@@ -47,4 +49,14 @@ footer{
 
 .imagen{
     width: 100%;
+}
+
+.formulario{
+    text-align: center;
+    width: 50%;
+    height: auto;
+    background: #248df0;
+    opacity: .7;
+    border-radius: 10%;
+    border: 2px solid #a2d2ff
 }
